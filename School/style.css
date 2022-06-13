@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: #13276c;
+}
+
+h3 {
+    color: #dcae1d;
+    font-size: 32px;
+}
+
+.aboutbanner {
+    width: 100%;
+}
+
+.aboutdescription,
+.facilitiesdesc, .admissiontext, .admissionlist, .mainleft {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 20px;
+    text-align: justify;
+}
+.admissionbanner{
+    width: 70%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}
+.facilimages {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.facilimages:hover {
+    width: 80%;
+    height: 80%;
+
+}
+
+.facilitiespic {
+    width: 50%;
+    height: 300px;
+}
+
+.facilitycombined {
+    width: 48%;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+.facleft{
+    float: left;
+    width:60%;
+}
+.facright{
+    float: left;
+    width:40%;
+}
+
+.gallerypic {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.gallerypic:hover {
+    border: 3px solid #13276c;
+    border-radius: 20px;
+    width: 310px;
+}
+.gallerycontainer{
+    display: block;
+    margin: 30px;
+    padding: 20%;
+    
+}
+.contactimg{
+    float: left;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+.contactdetails{
+    width: 70%;
+    float: left;
+    margin: 10%;
+    display: block;
+}
+.footbar{
+    text-align: center;
+background-color: #333;
+color: white;
+}
+.footbar a{
+    color:white;
+    text-decoration: none;
+}
+.mainhead{
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #dcae1d;
+    width: 100%;
+}
+.mainleft{
+    float:left;
+    width:60%; 
+    height:600px; 
+}
+.mainright{
+    float:right;
+    width:30%;
+}
+.mainpic{
+    width: 50%;
+    
+}
+.mainmain{
+    background-image: url(photos/School\ background\ pic2.jpg);
+    background-size: cover;
+    
+}
+.mainaside{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.mainasidel, .mainasider{
+    text-decoration: none;
+    background-color: #dcae1d;
+    color: #13276c;
+   
+    width: 100%;
+    display: inline-block;
+    
+}
+.mainasider{
+    text-decoration: none;
+    background-color: #dcae1d;
+    color: #13276c;
+    float:right;
+    width: 50%;
+}
+.socialmediaicons{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
